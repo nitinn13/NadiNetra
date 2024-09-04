@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 The water monitoring system leverages Google Earth Engine (GEE) and AWS services to provide real-time environmental monitoring of water bodies. This system is designed to analyze various water quality indices, such as Chlorophyll, Total Suspended Solids (TSS), and Turbidity, using satellite imagery and environmental data.
 
 ### Key Features:
@@ -19,3 +20,7 @@ The water monitoring system leverages Google Earth Engine (GEE) and AWS services
    - Alerts and notifications can be set up to inform users about critical changes in water quality parameters, helping in early detection of environmental issues.
 
 This system is particularly useful for environmental researchers, policymakers, and organizations focused on water conservation and management. It enables efficient monitoring of water bodies, helping to ensure sustainable water resources management.
+=======
+# NadiNetra
+Online Monitoring of Water Bodies in Delhi
+>>>>>>> 253966b33d0c4275ad692cb9e4d0f8596620cf55
