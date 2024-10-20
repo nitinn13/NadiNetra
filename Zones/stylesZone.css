@@ -2,11 +2,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: Product Sans, sans-serif;
-    /* background-image: url('waterbg.png');  
+    background-image: url(background07.jpeg);  
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;   */
-     background-color: #FFFFFF; 
+    background-attachment: fixed;   
+   /* background-color: red; */
+     
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -93,10 +94,12 @@ header{
     flex-direction: row;
     gap: 20px;
     padding: 20px;
+    
    
     flex-grow: 1;
     justify-content: center;
     align-items: center;
+    
     
 }
 
@@ -137,3 +140,4 @@ footer {
     text-align: center;
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
 }
+
