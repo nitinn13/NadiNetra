@@ -3,30 +3,34 @@
 
 // Initialize Locomotive Scroll
 
-function count(){
-const count = document.querySelector('.count');
+function count() {
+    const counts = document.querySelectorAll('.count');
+    const duration = 1000; // Duration for the count animation
 
-const counts = document.querySelectorAll('.count');
-const duration = 1000; // Increase duration to 2 seconds for smoother animation
-
-counts.forEach((countElement) => {
-    function update() {
-        const target = Number(countElement.getAttribute('data-target'));
-        const current = Number(countElement.innerText);
-        const increment = (target - current) / (duration / 16); // 60 FPS
-        
-        if (current < target) {
-            countElement.innerText = Math.ceil(current + increment);
-            requestAnimationFrame(update);
-        } else {
-            countElement.innerText = target;
+    counts.forEach((countElement) => {
+        function update() {
+            const target = Number(countElement.getAttribute('data-target'));
+            const current = Number(countElement.innerText);
+            const increment = (target - current) / (duration / 16); // 60 FPS
+            
+            if (current < target) {
+                countElement.innerText = Math.ceil(current + increment);
+                requestAnimationFrame(update);
+            } else {
+                countElement.innerText = target;
+            }
         }
-    }
-    
-    update();
-});
+        
+        update();
+    });
 }
-count();
+
+function autoReloadCount() {
+    count();
+    setTimeout(autoReloadCount, 10000); // Reload every 10 seconds
+}
+
+autoReloadCount(); // Start the auto-reloading process
 
 
 function loadinganimation()
