@@ -1,13 +1,13 @@
-<<<<<<< HEAD
+
 The water monitoring system leverages Google Earth Engine (GEE) and AWS services to provide real-time environmental monitoring of water bodies. This system is designed to analyze various water quality indices, such as Chlorophyll, Total Suspended Solids (TSS), and Turbidity, using satellite imagery and environmental data.
 
 ### Key Features:
 
-1. **Data Collection & Processing**: 
+1. Data Collection & Processing**: 
    - The system integrates with Google Earth Engine to access satellite imagery and environmental data. 
    - Using GEE's powerful computational capabilities, the system applies scientific formulas to calculate water quality indices like Chlorophyll, TSS, and Turbidity. For example, formulas for calculating these indices might include using spectral bands from satellite imagery, such as the Normalized Difference Vegetation Index (NDVI) for estimating Chlorophyll levels.
 
-2. **Real-Time Data Retrieval**:
+2. Real-Time Data Retrieval**:
    - The system fetches live data using AWS services, such as AWS Lambda and AWS S3, which host and process the environmental data in real-time. 
    - AWS IoT or AWS API Gateway could be used to manage the real-time communication between the data sources and the web application.
 
@@ -23,4 +23,7 @@ This system is particularly useful for environmental researchers, policymakers, 
 =======
 # NadiNetra
 Online Monitoring of Water Bodies in Delhi
->>>>>>> 253966b33d0c4275ad692cb9e4d0f8596620cf55
+developed by :
+Nitin Kumar Jha
+Parth Pankaj Singh 
+
