@@ -48,6 +48,7 @@ header{
     min-height: 100%;
     width: auto;
     height: auto;
+    overflow:hidden;
     transform: translate(-50%, -50%);
     z-index: -1; /* Ensure the video is behind other content */
     object-fit: cover; /* This ensures the video covers the entire container without distortion */
@@ -66,6 +67,7 @@ header{
     height: 100vh;
     text-align: center;
     font-size: 30px;
+    overflow:hidden;
 }
 .content-item {
     /* padding-top: 60px; */
@@ -109,6 +111,7 @@ header{
     color: black; /* Text color for better contrast */
     z-index: 2; /* Ensure it appears above the video */
     position: relative; /* Maintain its position in the document flow */
+    overflow:hidden;
 }
 .block-container-heading {
     text-align: center;
